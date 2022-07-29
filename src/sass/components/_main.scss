@@ -1,0 +1,78 @@
+body {
+  background-image: url(../images/Dark.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  //   background-image: url(../images/Dark.jpg);
+}
+// Buttons Theme~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.cookie-theme {
+  display: flex;
+  margin-right: 50px;
+  justify-content: flex-end;
+}
+.cookie-button {
+  margin-top: 50px;
+
+  font-family: --main-font;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: calc(20 / 15);
+  width: 117px;
+  height: 30px;
+  border-radius: 5px;
+  padding: 5px 14px;
+}
+.dark {
+  color: #ffffff;
+  background: rgba(119, 69, 11, 0.5);
+}
+.light {
+  color: #1e1405;
+  background: #bc8d5b;
+}
+// TItle~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.cookie-title {
+  margin-top: 60px;
+  text-align: center;
+  color: #ffffff;
+  font-family: --main-font;
+  letter-spacing: -0.32px;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: calc(21 / 48);
+}
+// Cookie~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.cookie-item {
+  position: relative;
+}
+.left-cookie {
+  top: 160px;
+  left: 130px;
+  position: absolute;
+}
+.middle-cookie {
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+}
+.right-cookie {
+  position: absolute;
+  right: 130px;
+  top: 160px;
+}
+.cookie-subtitle {
+  text-align: center;
+  margin-top: 400px;
+  font-family: --main-font;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: calc(21 / 36);
+  letter-spacing: -0.32px;
+  color: #ffffff;
+}
