@@ -1,0 +1,94 @@
+.theme__change{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 42px;
+    right: 38px;
+    padding: 3px 1px;
+    border-radius: 5px;
+    background-color:rgba(119, 69, 11);
+}
+
+.theme__button{
+    display: block;
+    margin-right: 3px;
+    margin-left: 3px;
+    border-radius: 5px;
+}
+
+
+.theme__button input[type=radio]{
+    display: none;
+}
+
+.white{
+    color:  #1E1405;
+    background: #BC8D5B;
+}
+
+.black{
+    color: #ffffff;
+    background-color: rgba(74, 42, 5);
+}
+
+.theme__button label{
+    display: block;
+    cursor: pointer;
+    padding: 5px 14px;
+    font-family: var(--main-font);
+    font-size: 15px;
+    line-height: 1.33;
+    font-weight: 600;
+    border-radius: 5px;
+}
+@keyframes changePositionRight {
+    0% {
+        transform: translateX(0%);
+    }
+    25% {
+        transform: translateX(25%);
+    }
+  
+    50% {
+        transform: translateX(50%);
+    }
+    75% {
+        transform: translateX(75%);
+    }
+  
+    100% {
+        transform: translateX(100%);
+    }
+  }
+
+  @keyframes changePositionLeft {
+    0% {
+        transform: translateX(0%);
+    }
+    25% {
+        transform: translateX(-25%);
+    }
+  
+    50% {
+        transform: translateX(-50%);
+    }
+    75% {
+        transform: translateX(-75%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+  }
+
+.changeRight{
+    animation-name: changePositionRight; 
+    animation-duration: 500ms;
+    animation-direction:normal;
+    transform: translateX(100%);
+}
+.changeLeft{
+    animation-name: changePositionLeft; 
+    animation-duration: 500ms;
+    animation-direction: alternate;
+    transform: translateX(-100%);
+}

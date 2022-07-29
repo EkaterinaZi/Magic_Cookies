@@ -1,0 +1,46 @@
+body {
+  padding-top: 60px;
+  background-color: #1e1405;
+}
+
+// TItle~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.cookie-title {
+  text-align: center;
+  color: #ffffff;
+  font-family: var(--main-font);
+  letter-spacing: -0.32px;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: calc(48 / 21);
+}
+// Cookie~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.cookie-item {
+  position: relative;
+  height: 350px;
+}
+.left-cookie {
+  top: 160px;
+  left: 130px;
+  position: absolute;
+}
+.middle-cookie {
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+}
+.right-cookie {
+  position: absolute;
+  right: 130px;
+  top: 160px;
+}
+.cookie-subtitle {
+  text-align: center;
+  margin-top: 100px;
+  font-family: var(--main-font);
+  font-weight: 400;
+  font-size: 36px;
+  line-height: calc(36 / 21);
+  letter-spacing: -0.32px;
+  color: #ffffff;
+}
